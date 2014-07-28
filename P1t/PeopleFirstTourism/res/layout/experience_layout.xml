@@ -1,0 +1,85 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF" >
+
+    <!--
+         TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" /
+    -->
+
+    <Button
+        android:id="@+id/btnUploadExperience"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:layout_x="4dp"
+        android:layout_y="380dp"
+        android:text="Upload" />
+
+    <EditText
+        android:id="@+id/p1t_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_x="5dp"
+        android:layout_y="268dp"
+        android:ems="10"
+        android:gravity="top"
+        android:lines="4" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:textColor="#000000"
+        android:layout_x="2dp"
+        android:layout_y="10dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Help P1T micro-entrepreneurs and other travelers by sharing photos and tips"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_visits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:layout_x="3dp"
+        android:layout_y="60dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="144dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Upload photo"
+        android:textSize="11sp" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:layout_x="6dp"
+        android:layout_y="227dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="My P1T experience"
+        android:textSize="11sp" 
+        android:textColor="#000000"/>
+
+</AbsoluteLayout>

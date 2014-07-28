@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_horizontal"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+   
+
+    <ListView
+        android:id="@+id/FriendList"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="none" >
+
+    </ListView>
+
+   <com.google.android.maps.MapView
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/MapView"
+       android:layout_width="match_parent"
+       android:layout_height="390dp"
+       android:apiKey="0DfCNsmR-Og_S7tCpwFIYUBmLs0h_MV9OoVEr3w"
+       android:clickable="true" />
+
+<ToggleButton
+    android:id="@+id/toggleButton1"
+    android:layout_width="127dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|bottom"
+    android:onClick="switchView"
+    android:text="MapView"
+    android:textOff="List View"
+    android:textOn="Map View" />
+
+</FrameLayout> 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ExpandableListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="356dp"
+        android:layout_weight="0.20"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="none" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Logout"
+        android:text="Logout" />
+
+</LinearLayout>

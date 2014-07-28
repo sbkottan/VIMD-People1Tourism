@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtHeading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Help P1T micro-entrepreneurs and other travelers by sharing photos and tips"
+            android:textSize="7sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/p1t_url"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="7sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Spinner
+            android:id="@+id/spinner_visits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnUploadPhoto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Photo" />
+    </TableRow>
+    
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtPhotoName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="7sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtMeaningfulExp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Share Meaningful Experiences"
+            android:textSize="7sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/p1t_meaningful_exp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:ems="10"
+            android:gravity="top"
+            android:lines="4" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtTipsTravellers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Share Tips for Travelers"
+            android:textSize="7sp" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/p1t_tips_for_travellers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:ems="10"
+            android:gravity="top"
+            android:lines="4" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/chkAgree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I authorize People-First Tourism to use my photos in web and marketing material." />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnUploadExperience"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Share" />
+    </TableRow>
+
+</TableLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
